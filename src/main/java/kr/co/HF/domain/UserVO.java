@@ -12,8 +12,7 @@ public class UserVO {
 	private int uage;
 	private int isAdmin;
 	
-	// getter/setter를 생성해주세요.
-	// 우클릭 -> Source -> generate getters and setters -> 모든 변수 체크 -> generate
+
 	public int getUserNum() {
 		return userNum;
 	}
@@ -38,19 +37,19 @@ public class UserVO {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
-	public String getuserEmail() {
+	public String getUserEmail() {
 		return userEmail;
 	}
-	public void setEmail(String userEmail) {
+	public void setUserEmail(String userEmail) {
 		this.userEmail = userEmail;
 	}
-	public int getuage() {
+	public int getUage() {
 		return uage;
 	}
 	public void setUage(int uage) {
 		this.uage = uage;
 	}
-	public int isAdmin() {
+	public int getIsAdmin() {
 		return isAdmin;
 	}
 	public void setIsAdmin(int isAdmin) {
